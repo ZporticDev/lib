@@ -1,5 +1,5 @@
 local _cache = {}
-local _repo  = "https://raw.githubusercontent.com/ZporticDev/lib/main/"
+local _repo = "https://raw.githubusercontent.com/ZporticDev/lib/refs/heads/main/"
 
 function _G.import(path)
     if _cache[path] then return _cache[path] end
